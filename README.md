@@ -21,7 +21,7 @@
 14. If Rufus warns you about all data being destroyed on the device, click "OK"
 15. Rufus will do its thing for a while (you can track its progress in "Status")
 16. Once Rufus is done, click "CLOSE" to exit Rufus
-17. Download `[bootia32.efi](bootia32.efi)` and move it to the `EFI/BOOT` directory in your USB flash drive
+17. Download [`bootia32.efi`](bootia32.efi) and move it to the `EFI/BOOT` directory in your USB flash drive
     * This folder should probably already contain `BOOTx64.EFI`, `grubx64.efi`, and `mmx64.efi`
 18. Eject your USB flash drive and then remove it
 

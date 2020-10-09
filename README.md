@@ -25,5 +25,12 @@
     * This folder should probably already contain `BOOTx64.EFI`, `grubx64.efi`, and `mmx64.efi`
 18. Eject your USB flash drive and then remove it
 
+# Boot Into the Installer
+## Disable Secure Boot
+1. Power on your ASUS T100TA while repeatedly pressing the `F2` key to boot into the UEFI menu (called "Aptio Setup Utility")
+2. Go to the "Security" tab
+3. Enter the "Secure Boot menu"
+4. Make sure "Secure Boot Support" is "\[Disabled\]"
+
 # Acknowledgements
 [This repo](https://github.com/5bentz/linux-asus-t100) was extremely helpful as I was figuring things out.

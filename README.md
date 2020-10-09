@@ -25,12 +25,27 @@
     * This folder should probably already contain `BOOTx64.EFI`, `grubx64.efi`, and `mmx64.efi`
 18. Eject your USB flash drive and then remove it
 
-# Boot Into the Installer
-## Disable Secure Boot
+# Disable Secure Boot
 1. Power on your ASUS T100TA while repeatedly pressing the `F2` key to boot into the UEFI menu (called "Aptio Setup Utility")
 2. Go to the "Security" tab
 3. Enter the "Secure Boot menu"
 4. Make sure "Secure Boot Support" is "\[Disabled\]"
+
+# Boot from USB
+1. Insert your USB flash drive into your ASUS T100TA
+2. Power on your ASUS T100TA while repeatedly pressing the `esc` key to boot into the boot device selection menu
+3. Select your USB flash drive (should be "UEFI: " followed by the model name of the flash drive) and hit Enter
+4. Get to the installer of your Linux distro (varies by distro)
+
+# Install Linux
+1. Run your Linux distro's intaller (specific instructions vary by distro)
+2. For partitioning, you can choose to either keep or remove your Windows partition
+    * In my case, I thought Windows 8 and 10 were both garbage on this laptop, so I nuked Windows entirely
+    * In Xubuntu's installer, I did the following for "Installation type":
+        1. Check "Erase disk and install Xubuntu" (I didn't pick any "Advanced features...") and click "Continue"
+        2. For "Select drive:", select "MMC/SD card #3 (mmcbnlk2)" (it was the only device other than the USB drive)
+        3. Click "Install now" and click "Continue" on the prompt that pops up
+3. Let the Linux installer do its thing
 
 # Acknowledgements
 [This repo](https://github.com/5bentz/linux-asus-t100) was extremely helpful as I was figuring things out.

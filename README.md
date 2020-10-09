@@ -1,5 +1,7 @@
 # Pick a Linux Distro
 * I tried [Phoenix OS](http://www.phoenixos.com/), which is actually Android and worked *really* nicely, but my OS randomly broke and got stuck in a boot loop
+* [Ubuntu](https://ubuntu.com/) might be a reasonable choice, but I imagine that its desktop environment will be too resource-intensive for the weak T100TA
+* I'm trying [Xubuntu](https://xubuntu.org/) to see if it works well
 
 # Create a Bootable USB of your Linux Install Image
 1. Download [Rufus](https://rufus.ie/) (I like the portable version)
